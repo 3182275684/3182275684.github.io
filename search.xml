@@ -21,13 +21,26 @@
   <entry>
     <title>杂项记录</title>
     <url>/2025/03/03/First-post/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>一.发文步骤：<br>1.自己新建文件并在文件开头手动加入如下格式</p>
+    <content><![CDATA[<h1 id="发文基本流程"><a href="#发文基本流程" class="headerlink" title="发文基本流程"></a>发文基本流程</h1><p>一.发文步骤：<br>1.自己新建文件并在文件开头手动加入如下格式，路径为&#x2F;blog&#x2F;source&#x2F;_posts，格式为.md文档</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line">title: 基于Hexo + Github搭建个人博客</span><br><span class="line">date: 2025年3月3日21:47:48</span><br><span class="line">tags:</span><br><span class="line">  - other</span><br><span class="line">keywords:</span><br><span class="line">  - hexo</span><br><span class="line">  - Github</span><br><span class="line">  - blog</span><br><span class="line">---</span><br><span class="line">摘要</span><br><span class="line">&lt;!--more--&gt;</span><br><span class="line">正文</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>2.写完后运行hexo g和hexo d发布<br>如果不可以，用&#96;hexo c &amp;&amp; hexo g &amp;&amp; hexo d  # hexo d 表示执行部署&#96;&#96;</p>
-<p>二.md文章常用格式<br>标题：以#数代表一二三级别标题<br>粗体：<strong>xxxxx</strong>，在文字前后分别加上双星号<br>斜体：在文字前后分别加上单星号<br>引用块：在文字前加上右折括号<br>有序列表：直接用数字加点进行排序<br>无序列表：在文字前加上短横<br>代码：在代码前后加上浮空顿号<br>代码块：&gt;<code>&#123;&#125;</code><br>分割线：三个短横<br>链接：&gt;<a href="url">title</a><br>图片：&gt;<img src="/image.jpg" alt="alt text"><br>删除线：文字前后分别加上双波浪号</p>
+<p>页面配置：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">#页面标题</span><br><span class="line">date:</span><br><span class="line">#页面创建日期</span><br><span class="line">updated:</span><br><span class="line">#页面更新日期</span><br><span class="line">type:</span><br><span class="line">#标签，分类，友链三个页面需要配置</span><br><span class="line">comments:</span><br><span class="line">#页面评论模块</span><br><span class="line">description:</span><br><span class="line">#页面描述</span><br><span class="line">keywords:</span><br><span class="line">#页面关键词</span><br><span class="line">top_img:</span><br><span class="line">#页面顶部图片</span><br><span class="line">aside:</span><br><span class="line">#显示侧边栏</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>文章配置</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">#文章标题</span><br><span class="line">date:</span><br><span class="line">#文章创建日期</span><br><span class="line">updated:</span><br><span class="line">#文章更新日期</span><br><span class="line">tags:</span><br><span class="line">#文章标签</span><br><span class="line">categories:</span><br><span class="line">#文章分类</span><br><span class="line">keywords:</span><br><span class="line">#文章关键字</span><br><span class="line">description:</span><br><span class="line">top_img:</span><br><span class="line">#文章顶部图片</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+<p>2.写完后运行hexo g和hexo d发布<br>如果不可以，用<code>hexo c &amp;&amp; hexo g &amp;&amp; hexo d  # hexo d 表示执行部署</code>，接<code>hexo s</code>为本地</p>
+<p>二.md文章常用格式<br>标题：以#数代表一二三级别标题<br>粗体：<strong>xxxxx</strong>，在文字前后分别加上双星号<br>斜体：在文字前后分别加上单星号<br>引用块：在文字前加上右折括号<br>有序列表：直接用数字加点进行排序<br>无序列表：在文字前加上短横<br>代码：在代码前后加上浮空顿号<br>代码块：在代码前后加上三浮空顿号<br>分割线：三个短横<br>链接：&gt;<a href="url">title</a><br>图片：&gt;<img src="/image.jpg" alt="alt text"><br>删除线：文字前后分别加上双波浪号</p>
 <p>三.主题<br>白日梦想家<br>玄学<br>星<br>奇幻<br>古文字<br>文言文<br>魔方<br>骰子<br>命运</p>
-<p>升級方法：在 Hexo 根目錄下，運行 npm update hexo-theme-butterfly</p>
 <hr>
 <h2 id="title-Hello-World"><a href="#title-Hello-World" class="headerlink" title="title: Hello World"></a>title: Hello World</h2><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
