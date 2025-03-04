@@ -35,6 +35,7 @@
 <hr>
 <p>二.md文章常用格式<br>标题：以#数代表一二三级别标题<br>注释：<code>&lt;!--xxx--&gt;</code>，xxx替换<br>粗体：在文字前后分别加上双星号<br>斜体：在文字前后分别加上单星号<br>引用块：在文字前加上右折括号<br>有序列表：直接用数字加点进行排序<br>无序列表：在文字前加上短横<br>代码：在代码前后加上浮空顿号<br>代码块：在代码前后加上三浮空顿号<br>分割线：三个短横<br>链接：&gt;<a href="url">title</a><br>图片：&gt;<img src="/image.jpg" alt="alt text"><br>删除线：文字前后分别加上双波浪号</p>
 <p>三.主题考虑<br>白日梦想家<br>玄学<br>星<br>奇幻<br>古文字<br>文言文<br>魔方<br>骰子<br>命运</p>
+<p>四.可能存在的错误<br>配置hexo博客时报错TypeError: Cannot read properties of null (reading ‘utcOffset‘)<br>答：在Hexo博客的_config.yml配置文件中，如果timezone设置不正确，如误设为Asia&#x2F;Beijing，可能会导致问题。正确的中国时区应设为Asia&#x2F;Harbin,Asia&#x2F;Shanghai,Asia&#x2F;Chongqing,Asia&#x2F;Urumqi或Asia&#x2F;Kashgar之一。修改这个设置后，保存并重新上传博客即可解决报错。</p>
 ]]></content>
   </entry>
   <entry>
