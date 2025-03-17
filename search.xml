@@ -19,11 +19,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2025/03/04/%E6%96%87%E7%AB%A0%E5%90%8D%E5%AD%97/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>123</title>
     <url>/2025/03/13/123/</url>
     <content><![CDATA[<p><img src="/./source/_posts/123/wallhaven-yxyp3k.jpg"></p>
@@ -39,7 +34,7 @@
     <title>杂项记录</title>
     <url>/2025/03/03/%E6%9D%82%E9%A1%B9%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h1 id="发文流程和相应配置"><a href="#发文流程和相应配置" class="headerlink" title="发文流程和相应配置"></a>发文流程和相应配置</h1><h2 id="一-发文步骤："><a href="#一-发文步骤：" class="headerlink" title="一.发文步骤："></a>一.发文步骤：</h2><p>1.自己新建文件并在文件开头手动加入如下格式，路径为&#x2F;blog&#x2F;source&#x2F;_posts，格式为.md文档</p>
-<h3 id="文章文件头部配置"><a href="#文章文件头部配置" class="headerlink" title="文章文件头部配置"></a>文章文件头部配置</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: </span><br><span class="line">#标题</span><br><span class="line">date: </span><br><span class="line">#创建日期</span><br><span class="line">top_img:</span><br><span class="line">#文章顶部图片</span><br><span class="line">cover:</span><br><span class="line">#文章封面图片</span><br><span class="line">tags:</span><br><span class="line">#文章标签</span><br><span class="line">categories:</span><br><span class="line">#文章分类</span><br><span class="line">keywords:</span><br><span class="line">#文章关键字</span><br><span class="line">description:</span><br><span class="line">#文章描述</span><br><span class="line">---</span><br><span class="line"># 摘要</span><br><span class="line">&lt;!--more--&gt;</span><br><span class="line">正文</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="文章文件头部配置"><a href="#文章文件头部配置" class="headerlink" title="文章文件头部配置"></a>文章文件头部配置</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: </span><br><span class="line">#标题</span><br><span class="line">date: </span><br><span class="line">#创建日期</span><br><span class="line">top_img:</span><br><span class="line">#文章顶部图片</span><br><span class="line">#/img/图库（此处为文件夹名，“图库”为示例）/wallhaven-qz11r5.png</span><br><span class="line">cover:</span><br><span class="line">#文章封面图片</span><br><span class="line">tags:</span><br><span class="line">#文章标签</span><br><span class="line">categories:</span><br><span class="line">#文章分类</span><br><span class="line">keywords:</span><br><span class="line">#文章关键字</span><br><span class="line">description:</span><br><span class="line">#文章描述</span><br><span class="line">#引用</span><br><span class="line">#![](/img/图库/wallhaven-qz11r5.png)</span><br><span class="line">---</span><br><span class="line"># 摘要</span><br><span class="line">&lt;!--more--&gt;</span><br><span class="line">正文</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>2.写完后运行hexo g和hexo d发布<br>用<code>hexo c &amp;&amp; hexo g &amp;&amp; hexo d  # hexo d 表示执行部署</code>，接<code>hexo s</code>为本地<br>如果远端不成功，查看本地，如果本地成功，远端不成功，考虑删除浏览器缓存，如果本地也不成功，问百度</p>
 <hr>
@@ -72,7 +67,8 @@
 
 <h2 id="八-清除网站缓存"><a href="#八-清除网站缓存" class="headerlink" title="八.清除网站缓存"></a>八.清除网站缓存</h2><p>F12，应用程序，存储，清除网站数据</p>
 <h2 id="右下角昼夜切换动画"><a href="#右下角昼夜切换动画" class="headerlink" title="右下角昼夜切换动画"></a>右下角昼夜切换动画</h2><p>还未解决</p>
-<h2 id="鼠标移动留下星星效果"><a href="#鼠标移动留下星星效果" class="headerlink" title="鼠标移动留下星星效果"></a>鼠标移动留下星星效果</h2>]]></content>
+<h2 id="鼠标移动留下星星效果"><a href="#鼠标移动留下星星效果" class="headerlink" title="鼠标移动留下星星效果"></a>鼠标移动留下星星效果</h2><hr>
+]]></content>
       <categories>
         <category>博客杂项问题</category>
       </categories>
@@ -80,5 +76,17 @@
         <tag>杂项</tag>
         <tag>问题</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>命理-婚期案例分析1</title>
+    <url>/2025/03/04/%E5%91%BD%E7%90%86-%E5%A9%9A%E6%9C%9F%E6%A1%88%E4%BE%8B%E5%88%86%E6%9E%901/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><span id="more"></span>
+
+
+
+<p><img src="/img/%E5%91%BD%E7%90%86-%E5%A9%9A%E6%9C%9F%E6%A1%88%E4%BE%8B%E5%88%86%E6%9E%901/0034ba7b3cddaf6d4f29942fd3ee731.png"></p>
+<hr>
+<p>命理-婚期案例分析1</p>
+]]></content>
   </entry>
 </search>
