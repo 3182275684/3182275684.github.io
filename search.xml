@@ -41,8 +41,7 @@
     <content><![CDATA[<h1 id="发文流程和相应配置"><a href="#发文流程和相应配置" class="headerlink" title="发文流程和相应配置"></a>发文流程和相应配置</h1><h2 id="一-发文步骤："><a href="#一-发文步骤：" class="headerlink" title="一.发文步骤："></a>一.发文步骤：</h2><p>1.自己新建文件并在文件开头手动加入如下格式，路径为&#x2F;blog&#x2F;source&#x2F;_posts，格式为.md文档</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: </span><br><span class="line">#标题</span><br><span class="line">date: </span><br><span class="line">#创建日期</span><br><span class="line">top_img:</span><br><span class="line">#文章顶部图片</span><br><span class="line">tags:</span><br><span class="line">#文章标签</span><br><span class="line">categories:</span><br><span class="line">#文章分类</span><br><span class="line">keywords:</span><br><span class="line">#文章关键字</span><br><span class="line">description:</span><br><span class="line">#文章描述</span><br><span class="line">---</span><br><span class="line"># 摘要</span><br><span class="line">&lt;!--more--&gt;</span><br><span class="line">正文</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<p><img src="/%E5%9B%BE%E5%BA%93/wallhaven-qz11r5.png"><br><img src="/_posts/123/wallhaven-yxyp3k.jpg"><br><img src="/img/%E5%9B%BE%E5%BA%93/wallhaven-qz11r5.png"></p>
-<!-- # 可行![](/img/wallhaven-qz11r5.png) -->
+
 
 <h3 id="页面配置："><a href="#页面配置：" class="headerlink" title="页面配置："></a>页面配置：</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">#页面标题</span><br><span class="line">date:</span><br><span class="line">#页面创建日期</span><br><span class="line">updated:</span><br><span class="line">#页面更新日期</span><br><span class="line">type:</span><br><span class="line">#标签，分类，友链三个页面需要配置</span><br><span class="line">comments:</span><br><span class="line">#页面评论模块</span><br><span class="line">description:</span><br><span class="line">#页面描述</span><br><span class="line">keywords:</span><br><span class="line">#页面关键词</span><br><span class="line">top_img:</span><br><span class="line">#页面顶部图片</span><br><span class="line">aside:</span><br><span class="line">#显示侧边栏</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
@@ -51,16 +50,28 @@
 
 <p>2.写完后运行hexo g和hexo d发布<br>如果不可以，用<code>hexo c &amp;&amp; hexo g &amp;&amp; hexo d  # hexo d 表示执行部署</code>，接<code>hexo s</code>为本地</p>
 <hr>
-<h2 id="二-md文章常用格式"><a href="#二-md文章常用格式" class="headerlink" title="二.md文章常用格式"></a>二.md文章常用格式</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">标题：以#数代表一二三级别标题</span><br><span class="line">注释：`&lt;!--xxx--&gt;`，xxx替换</span><br><span class="line">粗体：在文字前后分别加上双星号</span><br><span class="line">斜体：在文字前后分别加上单星号</span><br><span class="line">引用块：在文字前加上右折括号</span><br><span class="line">有序列表：直接用数字加点进行排序</span><br><span class="line">无序列表：在文字前加上短横</span><br><span class="line">代码：在代码前后加上浮空顿号</span><br><span class="line">代码块：在代码前后加上三浮空顿号</span><br><span class="line">分割线：---</span><br><span class="line">链接：[title](url)</span><br><span class="line">图片：&gt;![alt text](image.jpg)</span><br><span class="line">删除线：文字前后分别加上双波浪号</span><br></pre></td></tr></table></figure>
+<h2 id="二-md文章常用格式"><a href="#二-md文章常用格式" class="headerlink" title="二.md文章常用格式"></a>二.md文章常用格式</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">标题：以#数代表一二三级别标题</span><br><span class="line">注释：`&lt;!--xxx--&gt;`，xxx替换，或着可以选中一段文字，`ctrl+/`快捷键</span><br><span class="line">粗体：在文字前后分别加上双星号</span><br><span class="line">斜体：在文字前后分别加上单星号</span><br><span class="line">引用块：在文字前加上右折括号</span><br><span class="line">有序列表：直接用数字加点进行排序</span><br><span class="line">无序列表：在文字前加上短横</span><br><span class="line">代码：在代码前后加上浮空顿号</span><br><span class="line">代码块：在代码前后加上三浮空顿号</span><br><span class="line">分割线：---</span><br><span class="line">链接：[title](url)</span><br><span class="line">图片：&gt;![alt text](image.jpg)</span><br><span class="line">删除线：文字前后分别加上双波浪号</span><br></pre></td></tr></table></figure>
 
 
 <h2 id="三-主题考虑"><a href="#三-主题考虑" class="headerlink" title="三.主题考虑"></a>三.主题考虑</h2><p>白日梦想家<br>玄学<br>星<br>奇幻<br>古文字<br>文言文<br>魔方<br>骰子<br>命运</p>
 <h2 id="四-可能存在的错误"><a href="#四-可能存在的错误" class="headerlink" title="四.可能存在的错误"></a>四.可能存在的错误</h2><p>配置hexo博客时报错TypeError: Cannot read properties of null (reading ‘utcOffset‘)<br>答：在Hexo博客的_config.yml配置文件中，如果timezone设置不正确，如误设为Asia&#x2F;Beijing，可能会导致问题。正确的中国时区应设为Asia&#x2F;Harbin,Asia&#x2F;Shanghai,Asia&#x2F;Chongqing,Asia&#x2F;Urumqi或Asia&#x2F;Kashgar之一。修改这个设置后，保存并重新上传博客即可解决报错。</p>
 <h2 id="五-vscode中无法使用连串命令"><a href="#五-vscode中无法使用连串命令" class="headerlink" title="五.vscode中无法使用连串命令"></a>五.vscode中无法使用连串命令</h2><p>vscode中无法使用<code>hexo c &amp;&amp; hexo g &amp;&amp; hexo d  # hexo d 表示执行部署</code>命令，最终结果改为使用<code>hexo c ; hexo g ; hexo d # hexo d 表示执行部署</code><br>首先提示：标记“&amp;&amp;”不是此版本中的有效语句分隔符。<br>将“&amp;&amp;”改为分号即可，分号为vscode有效分隔符<br>后又提示：无法加载文件 C:\Users\clj31\AppData\Roaming\npm\hexo.ps1，因为在此系统上禁止运行脚本。<br>核心是power shell的安全策略，将 nrm 命令视为了不安全脚本，不允许执行。只需要放开权限就行。<br>那么问题来了，如何开放权限呢<br>第一步，win+r，运行<code>powershell</code><br>第二步，在控制台中输入<code>Start-Process powershell -Verb runAs</code>，这一步是使用管理员权限运行<br>第三步，输入<code>set-ExecutionPolicy RemoteSigned</code>改变执行策略<br>第四步，输入<code>y</code>选择是</p>
-<h2 id="六-背景图片无法显示"><a href="#六-背景图片无法显示" class="headerlink" title="六.背景图片无法显示"></a>六.背景图片无法显示</h2><p>设置了背景图片后，本地可以正常显示，但是远端无法正常显示（实际上可能不只是背景图片，其他设置可能也无法正常显示或体现修改）<br>有网友在discussion中找到解决方案1<br>1.把public文件夹和.deploy_git文件夹删掉，再重新使用<code>hexo c ; hexo g ; hexo d # hexo d 表示执行部署</code>即可，在操作过程中可能会出现延伸问题：.deploy_git文件夹需要管理员权限才可删除，此处给出一个暴力方法，即，重启计算机，趁管理员权限还未运行时，删除该文件夹，然后运行代码，等待一段时间即可刷新远端网页，查看更新后的配置</p>
+<h2 id="六-背景图片无法显示"><a href="#六-背景图片无法显示" class="headerlink" title="六.背景图片无法显示"></a>六.背景图片无法显示</h2><p>设置了背景图片后，本地可以正常显示，但是远端无法正常显示（实际上可能不只是背景图片，其他设置可能也无法正常显示或体现修改）<br>有网友在discussion中找到解决方案1<br>1.把public文件夹和.deploy_git文件夹删掉，再重新使用<code>hexo c ; hexo g ; hexo d # hexo d 表示执行部署</code>即可，在操作过程中可能会出现延伸问题：.deploy_git文件夹需要管理员权限才可删除，此处给出一个暴力方法，即，重启计算机，趁管理员权限还未运行时，删除该文件夹，然后运行代码，等待一段时间即可刷新远端网页，查看更新后的配置；此处给出第二种方法，直接跳过，猜测是需要管理员权限的文件并不与问题相关，删能删的就行了</p>
 <p>此处给出网友找到的解决方案2<br>2.清理浏览器缓存</p>
 <p>此处贴上原文链接：<a href="https://github.com/jerryc127/hexo-theme-butterfly/issues/1476">背景图片无法显示，设置了背景颜色也依旧无法显示</a>，若无法打开，考虑挂梯子，答案来自评论区</p>
-]]></content>
+<h2 id="七-文章封面，文章引用图片无法显示"><a href="#七-文章封面，文章引用图片无法显示" class="headerlink" title="七.文章封面，文章引用图片无法显示"></a>七.文章封面，文章引用图片无法显示</h2><p>想给每篇文章设置单独的图库文件夹，进行文章封面应用和文章内容引用，但是引用不成功，发现常用的图片资源引用路径为img，遂在img下建立新文件夹进行分类，成功引用<br>文章封面的引用格式为：<code>/img/图库（此处为文件夹名，“图库”为示例）/wallhaven-qz11r5.png</code><br>文章内容的引用格式为：<code>![](/img/图库/wallhaven-qz11r5.png)</code></p>
+<!-- 
+![](/图库/wallhaven-qz11r5.png)
+![](/_posts/123/wallhaven-yxyp3k.jpg) 不可行
+-->
+
+<!-- 可行![](/img/图库/wallhaven-qz11r5.png) -->
+<!-- 可行![](/img/wallhaven-qz11r5.png) -->
+<!-- https://w.wallhaven.cc/full/2y/wallhaven-2yjp6x.png -->
+<!-- /img/wallhaven-yxyp3k.jpg -->
+<!-- #经测试，上面这个链接可以显示 -->
+
+<h2 id="右下角昼夜切换动画"><a href="#右下角昼夜切换动画" class="headerlink" title="右下角昼夜切换动画"></a>右下角昼夜切换动画</h2><h2 id="鼠标移动留下星星效果"><a href="#鼠标移动留下星星效果" class="headerlink" title="鼠标移动留下星星效果"></a>鼠标移动留下星星效果</h2>]]></content>
       <categories>
         <category>博客杂项问题</category>
       </categories>
